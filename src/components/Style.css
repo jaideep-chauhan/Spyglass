@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d-flex-sb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.layout{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.main-home{
+    width: 100%;
+    position: relative;
+}
+.l-home{
+    width: 60%;
+    height: 120vh;
+    background-color: #035a95 ;
+}
+.l-navbar{
+    width: 100%;
+    padding: 3rem 0px;
+    background-color: #035a95;
+    padding-left: 10rem;
+}
+.l-navbar h1{
+    color: #fff;
+    
+}
+.l-navbar img{
+    width: 14rem;
+}
+.l-navbar ul{
+    width: 50%;
+    margin-right: 3rem;
+}
+.l-navbar ul li {
+list-style: none;
+}
+.l-navbar ul li span{
+    font-size: 18px;
+    color: #fff;
+}
+
+.r-home{
+    width: 40%;
+    height: 120vh;
+    background-color:#fff;
+    
+}
+.r-navbar{
+    width: 100%;
+    padding: 4rem 0px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10rem;
+
+}
+
+.r-navbar .iconify{
+    font-size: 20px;
+    margin-left: 3rem;
+    
+}
+.r-navbar .media-icon{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-right: 3rem;
+}
+.uper-home{
+    width: 81%;
+    height: 80vh;
+    position: absolute;
+    left: 166px;
+    top: 180px;
+    overflow: hidden;
+}
+
+/* Dropdown */
+
+
+.dropbtn {
+    color: white;
+    
+    padding: 16px 0;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #035a95;
+     min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px !important;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #ddd;
+        color: black !important;
+    }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+
+
+
+
+ 
+
+
+
+  /* Different style.. */
+  .main-differ{
+    width: 100%;
+    display: flex;
+    height: 22rem;
+  }
+  .differ-1{
+    width: 50%;
+    margin-left: 10rem ;
+    padding-top: 8rem;
+  }
+  .differ-1 h5{
+    color: #035a95;
+  }
+  .differ-2{
+width: 50%;
+margin-right: 10rem ;
+padding-top: 8rem;
+
+  }
+  #dif-p1{
+    padding-top: 8px;
+    font-size: 18px;
+  }
+  #dif-p2{
+    padding-top: 0.5rem;
+    font-size: 18px;
+}
+
+/* UperText */
+.main-upertext{
+    width: 100%;
+    /* margin: 0 auto; */
+    padding: 8rem 1rem;
+    height: max-content;
+display: flex;
+align-items:flex-end;
+justify-content: center;
+}
+.uper-image{
+    width: 50%;
+    /* position: absolute; */
+    /* height: 30rem; */
+    background-color: aqua;
+    top: 70px;
+    left: 40rem;
+    overflow: hiden;
+}
+.uper-image img{
+    width: 100%;
+}
+.uper-text{
+    width: 33%;
+    /* position: absolute; */
+   top: 290px;
+   left: 230px;
+    height: 21rem;
+    background-color:#035a95;
+    margin-right: -8rem;
+    margin-bottom: -6rem;
+    z-index: 1;
+}
+.uper-text h2{
+    color: #fff;
+    padding: 6rem 5rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+}
+/* Benifit */
+.main-benifit{
+    width: 100%;
+    display: flex;
+margin-top: 5rem;}
+.benift{
+    width: 60%;
+    background-color:aliceblue;
+   padding: 5rem 10rem;
+}
+.benift h5{
+    color: #035a95;
+
+}
+.benift h1{
+    font-size: 4rem;
+    font-weight: 300;
+}
+.benift p{
+    font-size: 19px;
+    padding-top: 10px;
+}
+.benift button{
+    width: 9rem;
+    height: 3rem;
+    margin-top: 40px;
+    background-color: #035a95;
+    color: #fff;
+    border: 0px;
+    font-size: 18px;
+}
+.benift-value{
+    width: 40%;
+    display: flex;
+    padding: 05rem 7rem;
+    justify-content: space-between;
+}
+.bt2-values{
+    padding-left: 30px;
+}
+.bt1-values .iconify, .bt2-values .iconify{
+    font-size: 5rem;
+    color: aquamarine;
+}
+.p-mrgn{
+    padding-bottom: 30px;
+}
+
+.main-quote{
+    width: 100%;
+    height: 38rem;
+    background-image: url('https://hradvisor.axiomthemes.com/wp-content/uploads/2016/06/home1.jpg?id=708');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.quote{
+    width: 32%;
+    margin-right: 14rem;
+    margin-top: 10rem;
+}
+.quote h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    font-size: 3rem;
+}
+.quote .iconify{
+    color: #fff;
+}
+
+/* CoreServices */
+.core-services{
+    width: 100%;
+    display: flex;
+}
+.core-services-1{
+    width: 50%;
+    padding-left: 9rem;
+    padding-top: 10rem;
+    margin-bottom: 6rem;
+}
+.core-services-1 h5{
+    color: #035a95;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+
+}
+.core-services-1 h1{
+    font-size: 3rem;
+    font-weight: 300;
+}
+.core-services-2{
+    width: 50%;
+    padding-right: 9rem;
+    padding-top: 10rem;
+    margin-bottom: 6rem;
+}
+.core-services-2 p{
+    font-size: 19px;
+    padding-top: 10px;
+}
+
+/* ServiceCard */
+.main-service-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.servicecard{
+    width: 20rem;
+    height: 16rem;
+    background-color: rgb(188, 233, 233);
+}
+
+
+  /* Footer.'' */
+  .footer{
+    /* width: 100%; */
+   padding: 80px 40px;
+    display: flex;
+    background-color:#035a95;
+    margin-top: 5rem;
+  }
+  .s-footer-1{
+    width: 20%;
+    align-items: flex-start;
+  }
+  .s-footer{
+    width: 20%;
+  }
+  .s-footer-1 img{
+    width: 150px;
+    /* margin-left: 100px; */
+  }
+  .footer h4{
+    color: white;
+  }
+  .footer .s-footer span{
+    display: block;
+  }
+  .s-d-c-1 span, .s-footer-2 span, .s-footer-3 span, .s-footer-4 span, .s-footer-5 > span{
+    display: inline-block;
+    color: white;
+    padding-top: 14px;
+  }

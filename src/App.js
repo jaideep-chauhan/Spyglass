@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Benifits from './components/Benifits';
+import Different from './components/Different';
+import HomePage from './components/HomePage';
+import UperText from './components/UperText';
+import Quotes from './components/Quotes';
+import CoreServices from './components/CoreServices';
+import ServicesCard from './components/ServicesCard';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HomePage/>
+      <Different/>
+      <UperText/>
+      <Benifits/>
+      <Quotes/>
+      <CoreServices/>
+      <ServicesCard/>
+      <Footer/>
+      </>
   );
 }
 
